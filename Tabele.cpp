@@ -4,19 +4,19 @@
 using namespace std;
 void test()
     {
-        cin>>a;
+        cin>>;
     }
 void test1()
 {
-    cout<<a;
+    cout<<;
 }
 int main()
 {
     int a;
     int T[5] = {0,0,0,4};
     cout <<setw(7)<< *(T+1);
-    test(a);
-    test1(a);
+    test();
+    test1();
     
     return 0;
 }

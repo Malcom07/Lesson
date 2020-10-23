@@ -104,6 +104,6 @@ int main()
     point5(T);
     point6(T);
     point7(T);
-    point8(T);
+    point8(T);   
     return 0;
 }

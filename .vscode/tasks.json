@@ -9,7 +9,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${workspaceFolder}/exe/${fileBasenameNoExtension}.exe",
 				"-std=c++17"
 			],
 			"options": {
