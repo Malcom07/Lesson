@@ -16,9 +16,8 @@ int fibo(int n)
 int NWD(int n, int m)
 
 {
-    if (n!=m)
-    if (n>m) return NWD(n-m,m);
-    else return NWD(n,m-n);
+    if (n==0) return 1;
+    if (m>0) return NWD(m,n%m);
   return n; ;
 }
 int pot(int n, int m)
