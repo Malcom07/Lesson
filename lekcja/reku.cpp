@@ -16,6 +16,7 @@ int fibo(int n)
 int NWD(int n, int m)
 
 {
+    cout<<"start"<<endl;
     if (n==0) return 1;
     if (m>0) return NWD(m,n%m);
   return n; ;
@@ -31,7 +32,7 @@ int main()
     int n,m;
     cin>>n;
     cin>>m;
-    cout<<silnia(n)<<endl<<fibo(n)<<endl<<NWD(n,m)<<endl<<pot(n,m)<<endl;
+    cout<<NWD(n,m)<<endl;
     system("pause");
 
 
