@@ -59,7 +59,7 @@ main()
         cin >> o >> E;
         system("CLS");
         cout << pier(o, E);
-
+  
         break;
 
     default:
