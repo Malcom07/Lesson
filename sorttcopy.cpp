@@ -16,6 +16,7 @@ int main()
    
 //wstawianko
 /*
+! Should add switcher 
 for(i=0;i<n;i++)
 {
     k=i;
