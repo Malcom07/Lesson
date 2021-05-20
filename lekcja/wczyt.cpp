@@ -5,6 +5,7 @@
 using namespace std;
 ifstream input;
 ofstream output;
+//factorial from "n" for p5
 int silnia(int n)
 {
     int s=1;   
@@ -14,6 +15,7 @@ int silnia(int n)
     }
     return s;
 }
+//digit on position "k" from number "n" for p5
 int cyfra(int n, int k)
 {
     int x=0;
@@ -26,6 +28,7 @@ int cyfra(int n, int k)
 
 
 }
+//*number of even numbers in file
 void p1()
 {
     input.open("liczby.txt");
@@ -44,6 +47,7 @@ void p1()
 
 
 }
+//*bigest number form file
 void p2()
 {
     input.open("liczby.txt");
@@ -58,6 +62,7 @@ void p2()
     output<<"   zad 2\n"<<b<<endl;
     output.close();
 }
+//*prime numbers from file
 void p3()
 {
     input.open("liczby.txt");
@@ -78,6 +83,7 @@ void p3()
     input.close();
     output.close();
 }
+//*Perfect numbers from file
 void p4()
 {
     input.open("liczby.txt");
@@ -98,6 +104,7 @@ void p4()
     output<<"   zad 4\n"<<b<<endl;
     output.close();
 }
+//*numbers equal to the sum of the digits of its factorial
 void p5()
 {  
     input.open("liczby.txt");
@@ -123,8 +130,10 @@ void p5()
 }
 main()
 {
+    // clear the file 
     output.open("wyniki.txt");
     output.close();
+    // inicating the functions 
     p1();
     p2();
     p3();
